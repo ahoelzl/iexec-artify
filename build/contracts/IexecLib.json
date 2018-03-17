@@ -1,0 +1,189 @@
+{
+  "contractName": "IexecLib",
+  "abi": [],
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820e965d6c6d6e9a930bf746010d3c63ccd04c37d38ebf496331491b09f5d2343cd0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820e965d6c6d6e9a930bf746010d3c63ccd04c37d38ebf496331491b09f5d2343cd0029",
+  "sourceMap": "34:99:1:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "34:99:1:-;;;;;",
+  "source": "pragma solidity ^0.4.18;\n//v1.1.1\nlibrary IexecLib{\n\n    enum StatusEnum { UNSET, UNAVAILABLE, PENDING, RUNNING, COMPLETED, ERROR}\n\n}",
+  "sourcePath": "iexec-oracle-contract/contracts/IexecLib.sol",
+  "ast": {
+    "absolutePath": "iexec-oracle-contract/contracts/IexecLib.sol",
+    "exportedSymbols": {
+      "IexecLib": [
+        32
+      ]
+    },
+    "id": 33,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 24,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".18"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 32,
+        "linearizedBaseContracts": [
+          32
+        ],
+        "name": "IexecLib",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "IexecLib.StatusEnum",
+            "id": 31,
+            "members": [
+              {
+                "id": 25,
+                "name": "UNSET",
+                "nodeType": "EnumValue",
+                "src": "75:5:1"
+              },
+              {
+                "id": 26,
+                "name": "UNAVAILABLE",
+                "nodeType": "EnumValue",
+                "src": "82:11:1"
+              },
+              {
+                "id": 27,
+                "name": "PENDING",
+                "nodeType": "EnumValue",
+                "src": "95:7:1"
+              },
+              {
+                "id": 28,
+                "name": "RUNNING",
+                "nodeType": "EnumValue",
+                "src": "104:7:1"
+              },
+              {
+                "id": 29,
+                "name": "COMPLETED",
+                "nodeType": "EnumValue",
+                "src": "113:9:1"
+              },
+              {
+                "id": 30,
+                "name": "ERROR",
+                "nodeType": "EnumValue",
+                "src": "124:5:1"
+              }
+            ],
+            "name": "StatusEnum",
+            "nodeType": "EnumDefinition",
+            "src": "57:73:1"
+          }
+        ],
+        "scope": 33,
+        "src": "34:99:1"
+      }
+    ],
+    "src": "0:133:1"
+  },
+  "legacyAST": {
+    "absolutePath": "iexec-oracle-contract/contracts/IexecLib.sol",
+    "exportedSymbols": {
+      "IexecLib": [
+        32
+      ]
+    },
+    "id": 33,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 24,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".18"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 32,
+        "linearizedBaseContracts": [
+          32
+        ],
+        "name": "IexecLib",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "IexecLib.StatusEnum",
+            "id": 31,
+            "members": [
+              {
+                "id": 25,
+                "name": "UNSET",
+                "nodeType": "EnumValue",
+                "src": "75:5:1"
+              },
+              {
+                "id": 26,
+                "name": "UNAVAILABLE",
+                "nodeType": "EnumValue",
+                "src": "82:11:1"
+              },
+              {
+                "id": 27,
+                "name": "PENDING",
+                "nodeType": "EnumValue",
+                "src": "95:7:1"
+              },
+              {
+                "id": 28,
+                "name": "RUNNING",
+                "nodeType": "EnumValue",
+                "src": "104:7:1"
+              },
+              {
+                "id": 29,
+                "name": "COMPLETED",
+                "nodeType": "EnumValue",
+                "src": "113:9:1"
+              },
+              {
+                "id": 30,
+                "name": "ERROR",
+                "nodeType": "EnumValue",
+                "src": "124:5:1"
+              }
+            ],
+            "name": "StatusEnum",
+            "nodeType": "EnumDefinition",
+            "src": "57:73:1"
+          }
+        ],
+        "scope": 33,
+        "src": "34:99:1"
+      }
+    ],
+    "src": "0:133:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-03-16T22:13:18.360Z"
+}
